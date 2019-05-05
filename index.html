@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-iframe="./stars.html">
+				<p>
+				<pre>
+   SSSSSSSSSSSSSSS HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF       JJJJJJJJJJJ          AAA               MMMMMMMM               MMMMMMMM     VVVVVVVV           VVVVVVVVIIIIIIIIII
+ SS:::::::::::::::SH:::::::H     H:::::::HE::::::::::::::::::::EF::::::::::::::::::::FF::::::::::::::::::::F       J:::::::::J         A:::A              M:::::::M             M:::::::M     V::::::V           V::::::VI::::::::I
+S:::::SSSSSS::::::SH:::::::H     H:::::::HE::::::::::::::::::::EF::::::::::::::::::::FF::::::::::::::::::::F       J:::::::::J        A:::::A             M::::::::M           M::::::::M     V::::::V           V::::::VI::::::::I
+S:::::S     SSSSSSSHH::::::H     H::::::HHEE::::::EEEEEEEEE::::EFF::::::FFFFFFFFF::::FFF::::::FFFFFFFFF::::F       JJ:::::::JJ       A:::::::A            M:::::::::M         M:::::::::M     V::::::V           V::::::VII::::::II
+S:::::S              H:::::H     H:::::H    E:::::E       EEEEEE  F:::::F       FFFFFF  F:::::F       FFFFFF         J:::::J        A:::::::::A           M::::::::::M       M::::::::::M      V:::::V           V:::::V   I::::I  
+S:::::S              H:::::H     H:::::H    E:::::E               F:::::F               F:::::F                      J:::::J       A:::::A:::::A          M:::::::::::M     M:::::::::::M       V:::::V         V:::::V    I::::I  
+ S::::SSSS           H::::::HHHHH::::::H    E::::::EEEEEEEEEE     F::::::FFFFFFFFFF     F::::::FFFFFFFFFF            J:::::J      A:::::A A:::::A         M:::::::M::::M   M::::M:::::::M        V:::::V       V:::::V     I::::I  
+  SS::::::SSSSS      H:::::::::::::::::H    E:::::::::::::::E     F:::::::::::::::F     F:::::::::::::::F            J:::::j     A:::::A   A:::::A        M::::::M M::::M M::::M M::::::M         V:::::V     V:::::V      I::::I  
+    SSS::::::::SS    H:::::::::::::::::H    E:::::::::::::::E     F:::::::::::::::F     F:::::::::::::::F            J:::::J    A:::::A     A:::::A       M::::::M  M::::M::::M  M::::::M          V:::::V   V:::::V       I::::I  
+       SSSSSS::::S   H::::::HHHHH::::::H    E::::::EEEEEEEEEE     F::::::FFFFFFFFFF     F::::::FFFFFFFFFFJJJJJJJ     J:::::J   A:::::AAAAAAAAA:::::A      M::::::M   M:::::::M   M::::::M           V:::::V V:::::V        I::::I  
+            S:::::S  H:::::H     H:::::H    E:::::E               F:::::F               F:::::F          J:::::J     J:::::J  A:::::::::::::::::::::A     M::::::M    M:::::M    M::::::M            V:::::V:::::V         I::::I  
+            S:::::S  H:::::H     H:::::H    E:::::E       EEEEEE  F:::::F               F:::::F          J::::::J   J::::::J A:::::AAAAAAAAAAAAA:::::A    M::::::M     MMMMM     M::::::M             V:::::::::V          I::::I  
+SSSSSSS     S:::::SHH::::::H     H::::::HHEE::::::EEEEEEEE:::::EFF:::::::FF           FF:::::::FF        J:::::::JJJ:::::::JA:::::A             A:::::A   M::::::M               M::::::M              V:::::::V         II::::::II
+S::::::SSSSSS:::::SH:::::::H     H:::::::HE::::::::::::::::::::EF::::::::FF           F::::::::FF         JJ:::::::::::::JJA:::::A               A:::::A  M::::::M               M::::::M               V:::::V          I::::::::I
+S:::::::::::::::SS H:::::::H     H:::::::HE::::::::::::::::::::EF::::::::FF           F::::::::FF           JJ:::::::::JJ A:::::A                 A:::::A M::::::M               M::::::M                V:::V           I::::::::I
+ SSSSSSSSSSSSSSS   HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEFFFFFFFFFFF           FFFFFFFFFFF             JJJJJJJJJ  AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMM                 VVV            IIIIIIIIII
+</pre>
+</p>
+
+				</section>
+				<section data-background-iframe="./stars.html">
+				<p>There's <span id="days"></span> days, <span id="hours"></span> hours, <span id="minutes"></span> minutes and <span id="seconds"></span> remaining.</p>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
