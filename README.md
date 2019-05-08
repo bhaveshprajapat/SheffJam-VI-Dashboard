@@ -1,7 +1,7 @@
 
 # SheffJam VI Dashboard
 ## Introduction
-A Reveal.JS powered slideshow with countdown timer and Figlet title card
+A Reveal.JS powered slideshow with countdown timer and Figlet title card.
 The original Tmux style dashboard utilised in previous SheffJams needed to be replaced with a more readable and easy to setup solution. This style of dashboard goes some way towards achieving those goals.
 
 ### Technologies Used: 
